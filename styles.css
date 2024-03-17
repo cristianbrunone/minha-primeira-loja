@@ -1,0 +1,95 @@
+.header {
+    text-align: center;
+    padding: 30px;
+    background-color: white;
+}
+
+body {
+    background-color: #f2f2f2;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+
+}
+
+.topnav a:hover{
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.carrinho-icono {
+    float:right;
+    margin-right: 0px; 
+    display: inline-block; 
+    vertical-align: middle;
+    padding: 12px 0px; 
+}
+
+.sellcard{
+    white-space: nowrap;
+    float: left;
+    width: 23.40%;
+    margin: 10px;
+}
+
+.sellcard img, .produto img {
+    max-width: 100%;
+    height: auto;
+    width: 80%;
+    display: block;
+    margin: auto;
+   
+
+}
+
+.descricao {
+    text-align: center; 
+    font-size: 15px; 
+    font-family: Helvetica, sans-serif; 
+    font-style: normal; 
+    font-weight: 400; 
+}
+
+.valor {
+    text-align: center; /* Alinhamento de texto centralizado */
+    font-size: 0.8em; /* Tamanho da fonte proporcional */
+    font-weight: bold; /* Espessura da fonte em negrito */
+}
+
+.compra {
+    text-align: center; /* Alinhamento de texto centralizado */
+}
+
+
+.produto {
+    display: inline-block;
+    vertical-align: top;
+    width: 200px;
+    height: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.produto img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    max-height: 100%; /* Asegura que la imagen no exceda la altura del contenedor */
+    object-fit: cover;
+}
+
+.texto-reais {
+    font-weight: bold;
+}
